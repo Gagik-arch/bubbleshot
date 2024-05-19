@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="./assets/logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Bubbleshot" />
+        <meta property="og:type" content="game.fun" />
+        <meta property="og:url" content="./assets/logo.png" />
+        <meta property="og:image" content="./assets/logo.png" />
+        <meta
+            property="og:description"
+            content="HTML canvas, javascript website"
+        />
+        <meta property="og:Bubbleshot" content="IMDb" />
+        <title>Bubbleshot</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div id="app"></div>
+
+        <div id="modal">
+            <div id="block">
+                <div id="video">
+                    <video width="600" height="600" autoplay muted loop>
+                        <source src="./example.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div id="start">Start</div>
+            </div>
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
